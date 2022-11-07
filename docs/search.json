@@ -7,13 +7,6 @@
     "text": "Example Rnw file and Example output created by doing:\nRscript -e 'knitr::knit2pdf(\"test1.Rnw\")'"
   },
   {
-    "objectID": "posts/welcome/index.html",
-    "href": "posts/welcome/index.html",
-    "title": "Welcome To My Blog",
-    "section": "",
-    "text": "Since this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
-  },
-  {
     "objectID": "posts/tmux/index.html",
     "href": "posts/tmux/index.html",
     "title": "tmux: leaving long jobs running on subliminal",
@@ -25,7 +18,7 @@
     "href": "index.html",
     "title": "notes22",
     "section": "",
-    "text": "knitr\n\n\n\n\n\n\n\n\n\n\n\nNov 7, 2022\n\n\nStephen Eglen\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nNov 4, 2022\n\n\nTristan O’Malley\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nunix\n\n\n\n\n\n\n\n\n\n\n\nOct 25, 2022\n\n\nStephen Eglen\n\n\n\n\n\n\nNo matching items"
+    "text": "knitr\n\n\n\n\n\n\n\n\n\n\n\nNov 7, 2022\n\n\nStephen Eglen\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nunix\n\n\n\n\n\n\n\n\n\n\n\nOct 25, 2022\n\n\nStephen Eglen\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
