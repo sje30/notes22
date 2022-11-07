@@ -14,6 +14,13 @@
     "text": "Since this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
   },
   {
+    "objectID": "posts/tmux/index.html",
+    "href": "posts/tmux/index.html",
+    "title": "tmux: leaving long jobs running on subliminal",
+    "section": "",
+    "text": "a - login to subliminal through your terminal\nb - type ‘tmux’ (stands for terminal multiplexer). work in that shell for a while, and then when you want to leave something running type ‘C-b d’ (for detach). You will see the window close. It is just detached though.\nc - logout of subliminal, and then log back in. nnnn d - type ‘tmux list-sessions’\nand you should see your first session\ne - type ‘tmux attach’ to go back to that session.\n…\nf - when finally you want to end that tmux session, just close the window in tmux, using ‘C-b &’.\nhttps://tmuxcheatsheet.com/\nyoutube has lots of ‘tmux’ tutorials too."
+  },
+  {
     "objectID": "posts/rcode-in-appendix/index.html",
     "href": "posts/rcode-in-appendix/index.html",
     "title": "Post With Code",
@@ -25,7 +32,7 @@
     "href": "index.html",
     "title": "notes22",
     "section": "",
-    "text": "knitr\n\n\n\n\n\n\n\n\n\n\n\nNov 7, 2022\n\n\nStephen Eglen\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nNov 7, 2022\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nNov 4, 2022\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+    "text": "knitr\n\n\n\n\n\n\n\n\n\n\n\nNov 7, 2022\n\n\nStephen Eglen\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nNov 7, 2022\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nNov 4, 2022\n\n\nTristan O’Malley\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nunix\n\n\n\n\n\n\n\n\n\n\n\nOct 25, 2022\n\n\nStephen Eglen\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
