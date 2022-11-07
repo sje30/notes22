@@ -7,9 +7,7 @@ website:
     right:
       - about.qmd
       - icon: github
-        href: https://github.com/
-      - icon: twitter
-        href: https://twitter.com
+        href: https://github.com/sje30/notes22
 format:
   html:
     theme: flatly
