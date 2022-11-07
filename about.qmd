@@ -17,3 +17,9 @@ about:
 ---
 
 About this blog
+
+
+Future items to add:
+
+* slurm
+* pluto vs jupyter
