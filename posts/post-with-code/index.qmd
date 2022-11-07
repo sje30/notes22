@@ -1,0 +1,17 @@
+---
+title: "Putting R code into an appendix with knitr"
+author: "Stephen Eglen"
+date: "2022-11-07"
+categories: [knitr]
+---
+
+For your Scientific Programming assignments you are asked to put your
+R code in the appendix.  See this working example for how to do this
+using knitr.  This method allows you to define your functions once, either
+in the main body or in the appendix, use them in the main report, and
+then visually show them in the appendix.  It works using named chunks,
+so that you can refer back to a chunk.
+
+[Example Rnw file](test1.Rnw) and [Example output](test1.pdf) created by doing:
+
+    Rscript -e 'knitr::knit2pdf("test1.Rnw")'

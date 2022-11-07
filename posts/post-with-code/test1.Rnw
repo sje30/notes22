@@ -1,0 +1,48 @@
+\documentclass{article}
+
+\begin{document}
+
+
+\author{me}
+\title{How to put R code into the appendix}
+
+\maketitle
+
+
+
+\section{Question 1}
+
+
+This is how to list your code in an appendix, and yet use it in
+the main document.  The first part requires you to define your
+functions, but set the option echo to FALSE so that the code function
+does not appear here.
+
+<<myfunctionsforq1,echo=FALSE>>=
+f = function(x) {
+  x * 2
+}
+@
+
+
+You can then use the function in the main part of the document.
+
+<<>>=
+f(10)
+@
+
+
+\clearpage
+\appendix
+
+\section{Code for Question 1}
+
+Then to add the code in the appendix, create an empty chunk with the
+same name as the chunk name used to define the function.  If you want,
+you can also add eval=FALSE, so that the code is not executed again.
+
+<<myfunctionsforq1,eval=FALSE>>=
+@
+
+
+\end{document}
