@@ -1,0 +1,34 @@
+---
+title: "tmux: leaving long jobs running on subliminal"
+author: "Stephen Eglen"
+date: "2022-10-25"
+categories: [unix]
+---
+
+There was a question about logging into subliminal and leaving a long
+job running.  for this I recommend 'tmux'.
+
+a - login to subliminal through your terminal
+
+b - type 'tmux' (stands for terminal multiplexer).  work in that shell
+for a while, and then when you want to leave something running type 'C-b
+d' (for detach).  You will see the window close. It is just detached
+though.
+
+c - logout of subliminal, and then log back in.
+nnnn
+d - type 'tmux list-sessions'
+
+and you should see your first session
+
+e - type 'tmux attach' to go back to that session.
+
+...
+
+f - when finally you want to end that tmux session, just close the
+window in tmux, using 'C-b &'.
+
+<https://tmuxcheatsheet.com/>
+
+youtube has lots of  'tmux' tutorials too.
+
