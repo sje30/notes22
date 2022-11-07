@@ -2,7 +2,7 @@ project:
   type: website
   output-dir: docs
 website:
-  title: "notes22"
+  title: "Notes from the MPhil in Computational Biology 2022-23"
   navbar:
     right:
       - about.qmd
